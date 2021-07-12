@@ -8,3 +8,4 @@ puts b.shuffle.join("-")
 
 puts a.to_s
 puts b.to_s
+puts 
