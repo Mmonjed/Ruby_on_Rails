@@ -1,4 +1,4 @@
-=begin
+
 def test 
     puts "Estas en el metodo" 
     yield 
@@ -7,7 +7,7 @@ def test
   end 
   test { puts "Estas en el bloque" }
   
-=end
+
 
   def test 
     yield 5 

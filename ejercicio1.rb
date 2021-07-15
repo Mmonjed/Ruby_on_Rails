@@ -192,3 +192,8 @@ puts arreglo.to_s
 #sort ordena el arreglo
 puts arreglo.sort!.to_s
 puts arreglo.to_s
+
+#even par; odd impar
+numeros=[2,4,6,8]
+puts numeros.reject {|elemento| elemento.odd? }
+#puts numeros.find_all {|elemento| elemento.odd? }
